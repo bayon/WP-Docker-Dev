@@ -1,13 +1,8 @@
 tutorial location:
 https://www.youtube.com/watch?v=pkp_Dr_4pOA
-left off at 4:10
+ 
+*NOTE: run into the firewall  issue with sharing the file in Docker for Windows
 
-*NOTE: run into the firewall  issue with shring the file.
-
-Error in Terminal after hitting the 'Share' option on the docker popup dialog.
-"Cannot create container for service wordpress: Drive sharing seems blocked by a firewall"
-
-Windows Docker Share Popup:
-"Docker For Windows - Share Drive.
-Docker wa
-ns" o access drive C:\.
+ 
+remove extra themes and plugins:
+import site origin theme North , the Page Builder and SiteOrigin Widget Editor plugins. 
