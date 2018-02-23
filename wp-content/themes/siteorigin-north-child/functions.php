@@ -16,6 +16,23 @@ function my_theme_enqueue_styles() {
 
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+ function xx_child_widgets_init(){
+        register_sidebar(
+            array(
+                'name' => 'Level Up New Widget Area',
+                'id' => 'level_up_new_widget_area',
+                'before_widget' => '<aside>',
+                'after_widget' => '</aside>',
+                'before_title' => '<h3 class="widget-title" >',
+                'after_title' => '</h3>',
+
+            )
+        );
+    }
+
+    add_action('widgets_init','xx_child_widgets_init');
+
 ?>
 <?php
 //WP Child Theme Example Code:

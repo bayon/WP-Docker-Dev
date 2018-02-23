@@ -29,5 +29,28 @@ SiteOrigin Page Builder Full  Webpage Tutorial:
 SiteOrigin CSS Plugin:
 	https://www.youtube.com/watch?v=NscUjKze16w
 
+ACF and SiteOrigin Integration via Post Widget
+	https://www.youtube.com/watch?v=HyqRDXBVKs0
+
+
 WP Super Cache:
     https://www.youtube.com/watch?v=80CwMMgIV8A
+
+    ///////////////////////////////////////////////
+    in functions.php
+
+    function xx_child_widgets_init(){
+    	register_sidebar(
+    		array(
+    			'name' => 'Level Up New Widget Area',
+    			'id' => 'level_up_new_widget_area',
+    			'before_widget' => '<aside>',
+    			'after_widget' => '</aside>',
+    			'before_title' => '<h3 class="widget-title" >',
+    			'after_title' => '</h3>',
+
+    		)
+    	);
+    }
+
+    add_action('widgets_init','xx_child_widgets_init');
