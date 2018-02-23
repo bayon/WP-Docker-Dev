@@ -9,6 +9,11 @@ function my_theme_enqueue_styles() {
         array( $parent_style ),
         wp_get_theme()->get('Version')
     );
+    //
+     wp_enqueue_style( 'plm-font-awesome', 'https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css' );
+
+
+
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 ?>

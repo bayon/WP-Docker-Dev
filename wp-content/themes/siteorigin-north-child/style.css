@@ -20,6 +20,19 @@
 .plm-anchor-button-light a{ padding: 10px 20px 10px 20px;border:solid 2px #fff;text-decoration:none;}
 .plm-anchor-button-light a:link{color:#000;background-color:#fff; }
 .plm-anchor-button-light a:hover{color:#CCC; }
-/*.plm-section-h2 */
-h2{color:#fff;font-size:45px !important;line-height:.5;letter-spacing:1px;font-weight:bold;}
-h3{color:#aaa;font-size:25px;line-height:1;letter-spacing:1px;font-weight:bold;}
+
+.plm-anchor-button-dark a{ padding: 10px 20px 10px 20px;border:solid 2px #fff;text-decoration:none;}
+.plm-anchor-button-dark a:link{color:#fff;background-color:#000; }
+.plm-anchor-button-dark a:hover{color:#CCC; }
+ 
+h2{color:#fff !important;font-size:45px !important;line-height:.5 !important;letter-spacing:1px !important;font-weight:bold !important;}
+h3{color:#555 !important;font-size:21px !important;line-height:1 !important;letter-spacing:1px !important;font-weight:bold !important;}
+h4{color:#222 !important;font-size:16px !important;line-height:1 !important;letter-spacing:.7px !important;font-weight:bold !important;}
+
+.plm-ul-list{list-style:none !important;}
+.plm-ul-list li{}
+.plm-ul-list li a{text-decoration:none !important;}
+.plm-ul-list  a:link{color:#000;  }
+.plm-ul-list  a:hover{color:#CCC; }
+
+i{margin-right:15px !important;}
