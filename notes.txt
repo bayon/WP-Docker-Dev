@@ -14,3 +14,20 @@ Create a custom homepage using SiteOrigins Page Builder plugin
 https://docs.woocommerce.com/document/create-custom-homepage-siteorigins-page-builder/
 
 ===============================================================================================
+
+SITEORIGIN CUSTOM WIDGETS:
+	https://siteorigin.com/docs/widgets-bundle/getting-started/creating-a-widget/
+
+
+SITEORIGIN TUTORIALS:
+	widget Tutorials:
+	https://www.youtube.com/watch?v=6rmuCDFILl4&list=PL3AQyOCiy4KRg0FuoVtVNGIOMdvRUTJ-3&index=2
+
+SiteOrigin Page Builder Full  Webpage Tutorial:
+	https://www.youtube.com/watch?v=ZpUDxQg4siE
+
+SiteOrigin CSS Plugin:
+	https://www.youtube.com/watch?v=NscUjKze16w
+
+WP Super Cache:
+    https://www.youtube.com/watch?v=80CwMMgIV8A
