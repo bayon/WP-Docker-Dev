@@ -1,0 +1,25 @@
+/*
+ Theme Name:   SiteOrigin North Child
+ Theme URI:    http://example.com/siteorigin-north-child/
+ Description:  SiteOrigin North Child Theme
+ Author:       Site Origin
+ Author URI:   http://example.com
+ Template:     siteorigin-north
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  siteorigin-north-child
+*/
+
+ 
+.plm-anchor-button-clear a{ padding: 10px 20px 10px 20px;border:solid 2px #fff;text-decoration:none;}
+.plm-anchor-button-clear a:link{color:#fff; }
+.plm-anchor-button-clear a:hover{color:#000; }
+
+.plm-anchor-button-light a{ padding: 10px 20px 10px 20px;border:solid 2px #fff;text-decoration:none;}
+.plm-anchor-button-light a:link{color:#000;background-color:#fff; }
+.plm-anchor-button-light a:hover{color:#CCC; }
+/*.plm-section-h2 */
+h2{color:#fff;font-size:45px !important;line-height:.5;letter-spacing:1px;font-weight:bold;}
+h3{color:#aaa;font-size:25px;line-height:1;letter-spacing:1px;font-weight:bold;}

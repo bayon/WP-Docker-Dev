@@ -6,3 +6,11 @@ https://www.youtube.com/watch?v=pkp_Dr_4pOA
  
 remove extra themes and plugins:
 import site origin theme North , the Page Builder and SiteOrigin Widget Editor plugins. 
+
+
+==============================================================================================
+Integrating With WooCommerce:
+Create a custom homepage using SiteOrigins Page Builder plugin
+https://docs.woocommerce.com/document/create-custom-homepage-siteorigins-page-builder/
+
+===============================================================================================
