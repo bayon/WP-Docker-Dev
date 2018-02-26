@@ -24,11 +24,11 @@
 .plm-anchor-button-dark a{ padding: 10px 20px 10px 20px;border:solid 2px #fff;text-decoration:none;}
 .plm-anchor-button-dark a:link{color:#fff;background-color:#000; }
 .plm-anchor-button-dark a:hover{color:#CCC; }
- 
-h2{color:#fff !important;font-size:45px !important;line-height:.5 !important;letter-spacing:1px !important;font-weight:bold !important;}
+ /*
+h2{color:#ddd !important;font-size:45px !important;line-height:.5 !important;letter-spacing:1px !important;font-weight:bold !important;}
 h3{color:#555 !important;font-size:21px !important;line-height:1 !important;letter-spacing:1px !important;font-weight:bold !important;}
 h4{color:#222 !important;font-size:16px !important;line-height:1 !important;letter-spacing:.7px !important;font-weight:bold !important;}
-
+*/
 .plm-ul-list{list-style:none !important;}
 .plm-ul-list li{}
 .plm-ul-list li a{text-decoration:none !important;}

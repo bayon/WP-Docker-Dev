@@ -40,9 +40,6 @@ class am_popular_posts extends WP_Widget  {
 							<?php
 							 } 
 							?>
-
-					 
-					
 				</ul>
 				<p>Ok this worked...it was added through the SiteOrigin Widget plugin but has no Parameters.</p>
 			</div>

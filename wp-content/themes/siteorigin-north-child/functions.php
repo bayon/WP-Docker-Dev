@@ -17,10 +17,10 @@ function my_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
- function xx_child_widgets_init(){
+ function joes_widget_area(){
         register_sidebar(
             array(
-                'name' => 'Level Up New Widget Area',
+                'name' => 'Joes Widget Area',
                 'id' => 'level_up_new_widget_area',
                 'before_widget' => '<aside>',
                 'after_widget' => '</aside>',
@@ -31,8 +31,50 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
         );
     }
 
-    add_action('widgets_init','xx_child_widgets_init');
+add_action('widgets_init','joes_widget_area');
 
+ 
+
+/*
+Create New Widget Area Using Custom Function
+https://codex.wordpress.org/Widgetizing_Themes
+*/
+function wpsites_before_post_widget( $content ) {
+    if ( is_singular( array( 'post', 'page' ) ) && is_active_sidebar( 'before-post' ) && is_main_query() ) {
+        dynamic_sidebar('before-post');
+    }
+    return $content;
+}
+add_filter( 'the_content', 'wpsites_before_post_widget' );
+
+function get_home_page_style(){
+    //HOME PAGE SPECIFIC CSS ONLY ---
+    echo("
+        <style>
+        h2{color:#ddd !important;font-size:45px !important;line-height:.5 !important;letter-spacing:1px !important;font-weight:bold !important;}
+        h3{color:#555 !important;font-size:21px !important;line-height:1 !important;letter-spacing:1px !important;font-weight:bold !important;}
+        h4{color:#222 !important;font-size:16px !important;line-height:1 !important;letter-spacing:.7px !important;font-weight:bold !important;}
+        </style>
+    ");
+}
+/*
+ISSUES ADDING A CUSTOM WIDGET TO SITEORIGINS
+function joes_widget_directories( $folders ){
+    // HOW TO CREAT a site origin widget https://github.com/siteorigin/docs/blob/develop/widgets-bundle/getting-started/creating-a-widget.md
+    $folders[] = get_template_directory() . '/widgets/';
+    return $folders;
+}
+add_action('siteorigin_widgets_widget_folders', 'joes_widget_directories');
+ 
+function activate_joes_widgets(){
+    if( !get_theme_mod('bundled_widgets_activated') ) {
+        //SiteOrigin_Widgets_Bundle::single()->activate_widget( 'wbe-staff' );
+        SiteOrigin_Widgets_Bundle::single()->activate_widget( 'wbe-simple-staff-widget' );
+        set_theme_mod( 'bundled_widgets_activated', true );
+    }
+}
+add_filter('admin_init', 'activate_joes_widgets');
+*/
 ?>
 <?php
 //WP Child Theme Example Code:

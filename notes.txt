@@ -20,8 +20,13 @@ SITEORIGIN CUSTOM WIDGETS:
 
 
 SITEORIGIN TUTORIALS:
-	widget Tutorials:
+widget Tutorials:
+	(did nto work)
 	https://www.youtube.com/watch?v=6rmuCDFILl4&list=PL3AQyOCiy4KRg0FuoVtVNGIOMdvRUTJ-3&index=2
+HOW TO CREAT a site origin widget 
+	(maybe better luck with this one)
+	https://github.com/siteorigin/docs/blob/develop/widgets-bundle/getting-started/creating-a-widget.md
+
 
 SiteOrigin Page Builder Full  Webpage Tutorial:
 	https://www.youtube.com/watch?v=ZpUDxQg4siE
@@ -54,3 +59,8 @@ WP Super Cache:
     }
 
     add_action('widgets_init','xx_child_widgets_init');
+    /////////////////////////////////////////////////////////////////
+    //your own custum widgets
+    https://www.youtube.com/watch?v=UubxZ7shiEU
+    
+    codex.wordpress.org/Widgetizing_Themes
