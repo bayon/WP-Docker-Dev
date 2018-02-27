@@ -19,6 +19,8 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				 <?php if(get_the_title()=="Home Page"){
 				 	get_home_page_style();
+				 }else if(get_the_title()=="What is PLM ?"){
+				 	get_plm_page_style();
 				 }
 				 ?> 
 				<?php get_template_part( 'template-parts/content', 'page' ); ?>

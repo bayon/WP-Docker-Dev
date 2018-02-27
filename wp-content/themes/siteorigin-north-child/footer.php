@@ -78,7 +78,7 @@
 		<?php endif; ?>
 
 		<div class="site-info">
-			<div class="container">
+			<div class="container" style="display:none;">
 				<?php
 				siteorigin_north_footer_text();
 

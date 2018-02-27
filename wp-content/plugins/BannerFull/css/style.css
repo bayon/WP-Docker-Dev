@@ -1,0 +1,28 @@
+.BannerFull-widget-container{
+	/* note: Page Builder CSS will NOT override main css */
+	 text-align:center;
+	 background-color:#36414D;
+	 padding-top:55px;
+	 padding-bottom:55px;
+	 color:#fff;
+	    
+    
+   /* line-height: 2.5rem;
+    margin: 0 auto;
+    max-width: 48.75rem;*/
+	 
+}
+.BannerFull-widget-container   h1{
+	/* note: Page Builder CSS will NOT override main css */
+	     font-family: Industry,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+.BannerFull-widget-container   h2{
+	/* note: Page Builder CSS will NOT override main css */
+	    font-family: Industry,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}
+.BannerFull-widget-container   h3{
+	/* note: Page Builder CSS will NOT override main css */
+	   font-size:45px;
+	   font-weight:bold;
+	     font-family: Industry,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+}

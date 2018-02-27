@@ -35,6 +35,7 @@ class Generic_Widget extends WP_Widget {
 		}
 		//echo esc_html__( $instance['description'], 'text_domain' );
 		echo ( $instance['description']  );
+		include(plugin_dir_path( __FILE__ ).'generic-template.php');
 		// class item end
 		/* // class item start 
 		if ( ! empty( $instance['description'] ) ) {

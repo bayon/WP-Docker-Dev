@@ -33,12 +33,10 @@ add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
 
 add_action('widgets_init','joes_widget_area');
 
- 
-
 /*
 Create New Widget Area Using Custom Function
 https://codex.wordpress.org/Widgetizing_Themes
-*/
+
 function wpsites_before_post_widget( $content ) {
     if ( is_singular( array( 'post', 'page' ) ) && is_active_sidebar( 'before-post' ) && is_main_query() ) {
         dynamic_sidebar('before-post');
@@ -46,7 +44,7 @@ function wpsites_before_post_widget( $content ) {
     return $content;
 }
 add_filter( 'the_content', 'wpsites_before_post_widget' );
-
+*/
 function get_home_page_style(){
     //HOME PAGE SPECIFIC CSS ONLY ---
     echo("
@@ -54,6 +52,16 @@ function get_home_page_style(){
         h2{color:#ddd !important;font-size:45px !important;line-height:.5 !important;letter-spacing:1px !important;font-weight:bold !important;}
         h3{color:#555 !important;font-size:21px !important;line-height:1 !important;letter-spacing:1px !important;font-weight:bold !important;}
         h4{color:#222 !important;font-size:16px !important;line-height:1 !important;letter-spacing:.7px !important;font-weight:bold !important;}
+        </style>
+    ");
+}
+function get_plm_page_style(){
+    //HOME PAGE SPECIFIC CSS ONLY ---
+     echo("
+        <style>
+              #content.site-content {
+                  background-color: #f2f2f2;
+                }
         </style>
     ");
 }

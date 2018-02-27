@@ -36,3 +36,18 @@ h4{color:#222 !important;font-size:16px !important;line-height:1 !important;lett
 .plm-ul-list  a:hover{color:#CCC; }
 
 i{margin-right:15px !important;}
+
+
+#masthead .site-branding img{
+	height:50px !important;
+	width:200px !important;
+}
+.attachment-full.size-full img{
+	height:70px !important;
+	width:auto !important;
+}
+
+#topbar,#topbar-widgets{
+	padding:0 !important;
+	margin:0 !important;
+}
